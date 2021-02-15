@@ -1,0 +1,35 @@
+a {
+  color:green;
+  text-decoration: none;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 200px;
+  margin: 0px;
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80);
+  font-family: 'Caveat', cursive;
+  font-size: 50px;
+}
+ol {
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  border-right: 1px solid gray;
+  width: 150px;
+  padding: 20px;
+  margin: 0;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+#grid ol {
+  padding-left: 33px;
+}
+#article {
+  padding-left: 60px;
+}
